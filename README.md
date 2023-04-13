@@ -1,8 +1,12 @@
-# KIWi App
+# KIWi App for Android
 
 *...Have you ever found yourself binge-reading Wikipedia, while you've already found the answer to what you were looking for originally? But new articles just continue to catch your interest?*
 
 Then this app is for you! Now quick and directed Wikipedia look-ups are at your fingertips, letting you skim through more topics in less time.
+
+Click below to watch the demo:
+  
+[![KIWi App for Android](https://img.youtube.com/vi/GNcW6XC8YFc/0.jpg)](https://www.youtube.com/watch?v=GNcW6XC8YFc)
 
 **KIWi** stands for **K**eyword **I**nterface **Wi**ki and much like the name suggests, adds Wikipedia links to your texts! By providing a string of words or text of interest, the same text will be returned to you with the corresponing Wikipedia links embedded. 
 
