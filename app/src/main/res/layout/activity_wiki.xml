@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context=".WikiActivity">
+
+    <TextView
+        android:text="@string/kiwiResultDescription"
+        android:id="@+id/text_app_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/colorPlain" />
+
+    <TextView
+        android:id="@+id/text_from_wiki"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:gravity="top|start"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/box_border"
+        android:textSize="18sp"
+        android:hint="@string/userText"
+        android:lines="10" />
+
+</LinearLayout>

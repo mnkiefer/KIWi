@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/kiwiDescription"
+        android:id="@+id/text_app_description"
+        android:layout_width="600dp"
+        android:layout_height="110dp"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/colorPlain" />
+
+    <EditText
+        android:id="@+id/text_from_user"
+        android:layout_width="550dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/box_border"
+        android:gravity="top"
+        android:autofillHints="userText"
+        android:textSize="18sp"
+        android:hint="@string/userText"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:lines="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:onClick="submitText"
+        android:text="@string/submitButton" />
+
+</LinearLayout>
